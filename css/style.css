@@ -1,0 +1,205 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  outline: none; }
+
+body {
+  background: #ddd; }
+
+.container {
+  width: 900px;
+  height: 400px;
+  display: block;
+  padding: 80px 60px;
+  margin: 120px auto;
+  background: white; }
+
+.menu {
+  width: 100%;
+  height: 100px;
+  background: #ccc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  line-height: 100px;
+  padding: 0px 20px; }
+  .menu .fonts {
+    display: inline-block;
+    height: 40px;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all .3s;
+    padding: 0px 8px; }
+    .menu .fonts:hover {
+      background: #24607d; }
+  .menu .font-size {
+    display: inline-block;
+    height: 40px;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all .3s;
+    padding: 0px 8px;
+    margin-left: 14px; }
+    .menu .font-size:hover {
+      background: #24607d; }
+  .menu .colors {
+    display: inline-block;
+    height: 40px;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all .3s;
+    padding: 0px 8px;
+    margin-left: 14px; }
+    .menu .colors:hover {
+      background: #24607d; }
+  .menu .background {
+    display: inline-block;
+    height: 40px;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all .3s;
+    padding: 0px 8px;
+    margin-left: 14px; }
+    .menu .background:hover {
+      background: #24607d; }
+
+.dropdown-fonts {
+  width: 100px;
+  border: 1px solid #24607d;
+  position: fixed;
+  top: 100px;
+  left: 20px;
+  z-index: 5;
+  display: none; }
+  .dropdown-fonts span {
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    color: #24607d;
+    text-align: center; }
+    .dropdown-fonts span:hover {
+      background: #24607d;
+      color: white; }
+
+.dropdown-size {
+  width: 45px;
+  border: 1px solid #24607d;
+  position: fixed;
+  top: 100px;
+  left: 122px;
+  z-index: 5;
+  display: none; }
+  .dropdown-size span {
+    display: block;
+    width: 100%;
+    height: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    color: #24607d;
+    text-align: center; }
+    .dropdown-size span:hover {
+      background: #24607d;
+      color: white; }
+
+.dropdown-colors {
+  width: 86px;
+  position: fixed;
+  top: 100px;
+  left: 257px;
+  z-index: 5;
+  display: none; }
+  .dropdown-colors span {
+    display: block;
+    width: 100%;
+    height: 20px;
+    cursor: pointer;
+    transition: all .3s;
+    color: transparent;
+    text-align: center; }
+    .dropdown-colors span:hover {
+      margin: 5px auto;
+      width: 90%; }
+  .dropdown-colors span:nth-child(1) {
+    background: #58FA58; }
+  .dropdown-colors span:nth-child(2) {
+    background: #FE2E9A; }
+  .dropdown-colors span:nth-child(3) {
+    background: #CC2EFA; }
+  .dropdown-colors span:nth-child(4) {
+    background: white; }
+  .dropdown-colors span:nth-child(5) {
+    background: #2E2EFE; }
+  .dropdown-colors span:nth-child(6) {
+    background: #A4A4A4; }
+  .dropdown-colors span:nth-child(7) {
+    background: #F4FA58; }
+  .dropdown-colors span:nth-child(8) {
+    background: #FF0000; }
+  .dropdown-colors span:nth-child(9) {
+    background: black; }
+
+.dropdown-background {
+  width: 86px;
+  position: fixed;
+  top: 100px;
+  left: 372px;
+  z-index: 5;
+  display: none; }
+  .dropdown-background span {
+    display: block;
+    width: 100%;
+    height: 20px;
+    cursor: pointer;
+    transition: all .3s;
+    color: transparent;
+    text-align: center; }
+    .dropdown-background span:hover {
+      margin: 5px auto;
+      width: 90%; }
+  .dropdown-background span:nth-child(1) {
+    background: #58FA58; }
+  .dropdown-background span:nth-child(2) {
+    background: #FE2E9A; }
+  .dropdown-background span:nth-child(3) {
+    background: #CC2EFA; }
+  .dropdown-background span:nth-child(4) {
+    background: white; }
+  .dropdown-background span:nth-child(5) {
+    background: #2E2EFE; }
+  .dropdown-background span:nth-child(6) {
+    background: #A4A4A4; }
+  .dropdown-background span:nth-child(7) {
+    background: #F4FA58; }
+  .dropdown-background span:nth-child(8) {
+    background: #FF0000; }
+  .dropdown-background span:nth-child(9) {
+    background: black; }
